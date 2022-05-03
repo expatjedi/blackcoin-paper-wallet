@@ -7,7 +7,7 @@ Bitcoin.Address = function (bytes) {
 	this.version = Bitcoin.Address.networkVersion;
 };
 
-Bitcoin.Address.networkVersion = 0x00; // mainnet
+Bitcoin.Address.networkVersion = 0x99; // mainnet
 
 /**
 * Serialize this object as a standard Bitcoin address.
@@ -19,7 +19,7 @@ Bitcoin.Address.prototype.toString = function () {
 	var hash = this.hash.slice(0);
 
 	// Version
-	hash.unshift(this.version);
+	hash.unshift(0x19);
 	var checksum = Crypto.SHA256(Crypto.SHA256(hash, { asBytes: true }), { asBytes: true });
 	var bytes = hash.concat(checksum.slice(0, 4));
 	return Bitcoin.Base58.encode(bytes);
