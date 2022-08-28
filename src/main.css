@@ -53,14 +53,14 @@ input[type=checkbox] { position: relative; z-index: 20; }
 #paperarea { min-height: 120px; display: none; }
 #paperarea .keyarea { border: 2px solid #DAA520; border-top: 0; }
 #paperarea .keyarea.art { display: block; height: auto; border: 0; font-family: Ubuntu, Arial; padding: 0; margin: 0; }
-#paperarea .artwallet .papersvg { width: 486px; height: 276px; border: 0; margin: 0; padding: 0; left: 0; }
-#paperarea .artwallet .qrcode_public { top: 52px; left: 17px; z-index: 100; margin: 0; float: none; display: block; position: absolute; background-color: #FFFFFF; 
+#paperarea .artwallet .papersvg { width: 808px; height: 459px; border: 0; margin: 0; padding: 0; left: 0; }
+#paperarea .artwallet .qrcode_public { top: 77px; left: 37px; z-index: 100; margin: 0; float: none; display: block; position: absolute; background-color: #FFFFFF; 
 		                                padding: 5px 5px 2px 5px; } 
-#paperarea .artwallet .qrcode_private { top: 104px; left: 365px; z-index: 100; margin: 0; float: none; display: block; position: absolute; background-color: #FFFFFF; 
+#paperarea .artwallet .qrcode_private { top: 204px; left: 670px; z-index: 100; margin: 0; float: none; display: block; position: absolute; background-color: #FFFFFF; 
 		                                padding: 5px 5px 2px 5px; }
 #paperarea .artwallet .btcaddress  
 {
-	position: absolute; top: 240px; left: 149px; z-index: 100; font-size: 10px; background-color: transparent;
+	position: absolute; top: 240px; left: 135px; z-index: 100; font-size: 10px; background-color: transparent;
 	font-weight:bold; color: #FFFFFF; margin: 0;
 		-webkit-transform-origin:top left; -webkit-transform:rotate(-90deg);
 		-moz-transform-origin:top left;    -moz-transform:rotate(-90deg);
@@ -70,7 +70,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
 } 
 #paperarea .artwallet .btcprivwif  
 {
-	position: absolute; top: 240px; left: 350px; z-index: 100; font-size: 7px; background-color: transparent;
+	position: absolute; top: 350px; left: 650px; z-index: 100; font-size: 7px; background-color: transparent;
 	font-weight:bold; color: #FFFFFF; margin: 0;  
 		-webkit-transform-origin:top left; -webkit-transform:rotate(-90deg);
 		-moz-transform-origin:top left;    -moz-transform:rotate(-90deg);
@@ -80,7 +80,7 @@ input[type=checkbox] { position: relative; z-index: 20; }
 }
 #paperarea .artwallet .btcencryptedkey
 {
-	position: absolute; top: 174px; left: 332px; z-index: 100; font-size: 8px; background-color: transparent;
+	position: absolute; top: 325px; left: 645px; z-index: 100; font-size: 8px; background-color: transparent;
 	font-weight:bold; color: #FFFFFF; margin: 0;  
 		-webkit-transform-origin:top left; -webkit-transform:rotate(-90deg);
 		-moz-transform-origin:top left;    -moz-transform:rotate(-90deg);
