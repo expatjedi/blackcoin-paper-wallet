@@ -43,7 +43,7 @@ window.Bitcoin | MIT License
 
 The blkaddress.org software is available under The MIT License (MIT)
 
-Copyright (c) 2011-2022 bitaddress.org
+Copyright (c) 2011-2022 bitaddress.org  
 Copyright (c) 2022 blkaddress.org
 
 Permission is hereby granted, free of charge, to any person obtaining
