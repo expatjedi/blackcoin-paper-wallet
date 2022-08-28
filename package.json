@@ -1,8 +1,8 @@
 {
   "name": "blkaddress.org",
   "version": "1.0.0",
-  "sha1sum": "530c4bd1e7937ca724f845a43e7b748653f4c940",
-  "sha256sum": "88f36f4d7fa6f6fdc665df44a24c02541016d3f5be590b44c6fd74b116235778",
+  "sha1sum": "d44f4eb62f448e680012860280d8c5535a5eb79d",
+  "sha256sum": "647c4e8aa7fbc0e9c6057bd34d9475abc4de0a60a093d0664a61ed2db1d48a77",
   "description": "Open Source JavaScript Client-Side Blackcoin Wallet Generator",
   "main": "Gruntfile.js",
   "dependencies": {
